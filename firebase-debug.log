@@ -1,0 +1,46 @@
+[debug] [2024-12-11T17:21:41.417Z] ----------------------------------------------------------------------
+[debug] [2024-12-11T17:21:41.419Z] Command:       C:\Program Files\nodejs\New Folder\node.exe C:\Users\Soumil\npm-\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2024-12-11T17:21:41.419Z] CLI Version:   13.24.2
+[debug] [2024-12-11T17:21:41.419Z] Platform:      win32
+[debug] [2024-12-11T17:21:41.420Z] Node Version:  v20.18.0
+[debug] [2024-12-11T17:21:41.420Z] Time:          Wed Dec 11 2024 22:51:41 GMT+0530 (India Standard Time)
+[debug] [2024-12-11T17:21:41.420Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-11T17:21:41.493Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-11T17:21:41.493Z] > authorizing via signed-in user (msoumil69@gmail.com)
+[debug] [2024-12-11T17:21:41.493Z] [iam] checking project samubase-20241211 for permissions ["firebase.projects.get"]
+[debug] [2024-12-11T17:21:41.494Z] Checked if tokens are valid: true, expires at: 1733938796346
+[debug] [2024-12-11T17:21:41.494Z] Checked if tokens are valid: true, expires at: 1733938796346
+[debug] [2024-12-11T17:21:41.495Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/samubase-20241211:testIamPermissions [none]
+[debug] [2024-12-11T17:21:41.495Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/samubase-20241211:testIamPermissions x-goog-quota-user=projects/samubase-20241211
+[debug] [2024-12-11T17:21:41.495Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/samubase-20241211:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-12-11T17:21:43.235Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/samubase-20241211:testIamPermissions 200
+[debug] [2024-12-11T17:21:43.235Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/samubase-20241211:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-12-11T17:21:43.235Z] Checked if tokens are valid: true, expires at: 1733938796346
+[debug] [2024-12-11T17:21:43.236Z] Checked if tokens are valid: true, expires at: 1733938796346
+[debug] [2024-12-11T17:21:43.236Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/samubase-20241211 [none]
+[debug] [2024-12-11T17:21:43.912Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/samubase-20241211 200
+[debug] [2024-12-11T17:21:43.913Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/samubase-20241211 {"projectId":"samubase-20241211","projectNumber":"776505366588","displayName":"samubase-20241211","name":"projects/samubase-20241211","resources":{"hostingSite":"samubase-20241211"},"state":"ACTIVE","etag":"1_8b16975f-e536-417a-81fb-88a11814521e"}
+[info] 
+[info] === Serving from 'C:\Users\Soumil\Downloads\REDIVIVUS-WasteManagementSite-main\REDIVIVUS-WasteManagementSite-main'...
+[info] 
+[debug] [2024-12-11T17:21:43.917Z] Checked if tokens are valid: true, expires at: 1733938796346
+[debug] [2024-12-11T17:21:43.917Z] Checked if tokens are valid: true, expires at: 1733938796346
+[debug] [2024-12-11T17:21:43.918Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/samubase-20241211/sites 
+[debug] [2024-12-11T17:21:45.273Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/samubase-20241211/sites 200
+[debug] [2024-12-11T17:21:45.273Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/samubase-20241211/sites {"sites":[{"name":"projects/samubase-20241211/sites/samubase-20241211","defaultUrl":"https://samubase-20241211.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2024-12-11T17:21:45.273Z] Checked if tokens are valid: true, expires at: 1733938796346
+[debug] [2024-12-11T17:21:45.274Z] Checked if tokens are valid: true, expires at: 1733938796346
+[debug] [2024-12-11T17:21:45.274Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/samubase-20241211/webApps/-/config [none]
+[debug] [2024-12-11T17:21:46.206Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/samubase-20241211/webApps/-/config 200
+[debug] [2024-12-11T17:21:46.207Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/samubase-20241211/webApps/-/config {"projectId":"samubase-20241211","appId":"1:776505366588:web:ec88d2b785562529538b39","storageBucket":"samubase-20241211.firebasestorage.app","apiKey":"AIzaSyCeEfyABOYhM5HkNoIjsFig5gMEEk2qUGQ","authDomain":"samubase-20241211.firebaseapp.com","messagingSenderId":"776505366588"}
+[debug] [2024-12-11T17:21:46.212Z] Checked if tokens are valid: true, expires at: 1733938796346
+[debug] [2024-12-11T17:21:46.213Z] Checked if tokens are valid: true, expires at: 1733938796346
+[debug] [2024-12-11T17:21:46.213Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/samubase-20241211 [none]
+[debug] [2024-12-11T17:21:46.595Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/samubase-20241211 200
+[debug] [2024-12-11T17:21:46.595Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/samubase-20241211 {"projectId":"samubase-20241211","projectNumber":"776505366588","displayName":"samubase-20241211","name":"projects/samubase-20241211","resources":{"hostingSite":"samubase-20241211"},"state":"ACTIVE","etag":"1_8b16975f-e536-417a-81fb-88a11814521e"}
+[info] i  hosting[samubase-20241211]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[samubase-20241211]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [11/Dec/2024:17:21:55 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [11/Dec/2024:17:21:55 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [11/Dec/2024:17:21:55 +0000] "GET /public/app.js HTTP/1.1" 404 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [11/Dec/2024:17:21:55 +0000] \"GET /public/app.js HTTP/1.1\" 404 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [11/Dec/2024:17:21:55 +0000] "GET /package/swiper-bundle.min.js HTTP/1.1" 404 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [11/Dec/2024:17:21:55 +0000] \"GET /package/swiper-bundle.min.js HTTP/1.1\" 404 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36\""}}
